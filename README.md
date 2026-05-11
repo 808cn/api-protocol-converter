@@ -1,12 +1,12 @@
 # api-protocol-converter
-OpenAI (Chat Completions / Responses) 与 Anthropic (Messages) API 协议转换专家。
-覆盖三端点间的请求归一化、响应编码、流式事件互转、工具调用协议映射、以及错误处理。
+OpenAI (Chat Completions / Responses) 与 Anthropic (Messages) API 协议转换专家。覆盖三端点间的请求归一化、响应编码、流式事件互转、工具调用协议映射、以及错误处理。
+
 当用户需要：
-(1) 实现 OpenAI 格式到 Claude 格式的协议代理/转换层；
-(2) 理解 Chat Completions、Responses、Messages 三端点的字段差异与转换规则；
-(3) 编写协议转换代理或网关；
-(4) 测试协议转换的正确性；
-(5) 排查协议转换中的常见错误时使用。
+- 实现 OpenAI 格式到 Claude 格式的协议代理/转换层；
+- 理解 Chat Completions、Responses、Messages 三端点的字段差异与转换规则；
+- 编写协议转换代理或网关；
+- 测试协议转换的正确性；
+- 排查协议转换中的常见错误时使用。
 
 技能 api-protocol-converter 已创建完成
 目录结构如下：
@@ -30,7 +30,6 @@ SKILL.md 核心内容：
 3. curl 快速对照示例 — Chat请求转Messages请求、Claude响应转Chat响应的完整对照
 4. 实现路线建议 — 7步渐进式路线
 5. 最小测试矩阵 — 12 条必须通过的验收标准
-6. 不在第一版范围的内容 — 明确声明不支持的能力
 
 对 references 文件做的修改：
 - 移除了对 replit.md / replit2.md 的项目特定引用，改为同目录文档互引
